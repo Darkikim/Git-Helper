@@ -7,7 +7,7 @@ Minimal Symfony compatibility : `5.2`
 
 ## Installation
 
-`composer require Kikim/GitHelper`
+`composer require darkikim/git-helper`
 
 ## Add this amazing bundle to bundle.php
 
