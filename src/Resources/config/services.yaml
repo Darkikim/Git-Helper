@@ -1,0 +1,17 @@
+parameters:
+
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: true
+
+  Darkikim\GitHelper\Service\GitCollector:
+    arguments: [ '%kernel.project_dir%' ]
+
+  Darkikim\GitHelper\DataCollector\GitDataCollector:
+    tags:
+      -
+        name: data_collector
+        # must match the value returned by the getName() method
+        id: 'kikim.git_data_collector'

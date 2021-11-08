@@ -1,0 +1,24 @@
+{
+  "name": "darkikim/git-helper",
+  "type": "symfony-bundle",
+  "description": "Add some git informations to Symfony profiler",
+  "keywords": ["git","profiler","toolbar"],
+  "homepage": "https://github.com/Darkikim/Git-Helper",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Darkikim",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "symfony/framework-bundle": "^5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Darkikim\\GitHelper\\": "src"
+    }
+  }
+}
+
