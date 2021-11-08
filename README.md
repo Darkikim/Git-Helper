@@ -5,11 +5,11 @@
 This bundle is a little tool that sometimes help to see who append and when happened the last commit pushed to the current branch.  
 Minimal Symfony compatibility : `5.2`
 
-##Installation
+## Installation
 
 `composer require Kikim/GitHelper`
 
-##Add this amazing bundle to bundle.php
+## Add this amazing bundle to bundle.php
 
 If you don't have Symfony Flex :
 ```php
